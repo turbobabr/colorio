@@ -1,6 +1,6 @@
 # colorio
 
-colorio is a color picker(eyedropper) GUI tool, implemented as a node.js module with native `macOS` binary that represents GUI layer. It can be used in any stand-alone `node.js` or `Electron.js` applications running on `macOS`.
+colorio is a color picker(eyedropper) GUI tool, implemented as a node.js module with a native `macOS` binary that represents GUI layer. It can be used in any stand-alone `node.js` or `Electron.js` applications running on `macOS`.
 
 ## Installation
 
