@@ -26,4 +26,6 @@ const pickColor = (options) => {
   });
 };
 
-module.exports = pickColor;
+module.exports = {
+    pickColor: pickColor
+};
