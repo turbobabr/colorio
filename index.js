@@ -8,7 +8,7 @@ function fixPathForAsarUnpack(path) {
 }
 
 const pickColor = (options) => {
-  const electronFixedModuleBinaryPath = __dirrname.endsWith('app.asar') ? 'node_modules/colorio/bin' : 'bin'
+  const electronFixedModuleBinaryPath = __dirname.endsWith('app.asar') ? 'node_modules/colorio/bin' : 'bin'
   const BIN = options && options.execPath ? options.execPath : path.join(fixPathForAsarUnpack(__dirname), isElectron ? electronFixedModuleBinaryPath : 'bin');
   return new Promise((resolve,reject) => {
     exec(BIN,(err,stdout,stderr) => {
