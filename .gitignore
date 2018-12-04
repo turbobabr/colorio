@@ -5,5 +5,5 @@ package-lock.json
 !*.xcodeproj/project.pbxproj
 !*.xcworkspace/contents.xcworkspacedata
 /obj-c/build
-/eyedropper
+/bin
 .DS_Store

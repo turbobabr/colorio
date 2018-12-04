@@ -7,7 +7,7 @@
     "node": ">=8"
   },
   "scripts": {
-    "build": "cd obj-c && xcodebuild archive -derivedDataPath $(mktemp -d) -scheme eyedropper",
+    "build": "cd obj-c && xcodebuild archive -derivedDataPath $(mktemp -d) -scheme bin",
     "prepublish": "npm run build"
   },
   "files": [

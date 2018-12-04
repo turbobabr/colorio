@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		55AEF64721B63F2D00FF4DBB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 55AEF64621B63F2D00FF4DBB /* main.m */; };
+		55AEF65921B63F9100FF4DBB /* KeysInterceptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 55AEF64D21B63F9000FF4DBB /* KeysInterceptor.m */; };
+		55AEF65A21B63F9100FF4DBB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 55AEF65221B63F9000FF4DBB /* AppDelegate.m */; };
+		55AEF65B21B63F9100FF4DBB /* EyeDropperView.m in Sources */ = {isa = PBXBuildFile; fileRef = 55AEF65321B63F9000FF4DBB /* EyeDropperView.m */; };
+		55AEF65C21B63F9100FF4DBB /* EyeDropperWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 55AEF65521B63F9100FF4DBB /* EyeDropperWindow.m */; };
+		55AEF65D21B63F9100FF4DBB /* NSScreen+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 55AEF65621B63F9100FF4DBB /* NSScreen+Utils.m */; };
+		55AEF65E21B63F9100FF4DBB /* ScreenSnapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 55AEF65721B63F9100FF4DBB /* ScreenSnapshot.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +31,18 @@
 /* Begin PBXFileReference section */
 		55AEF64321B63F2D00FF4DBB /* bin */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = bin; sourceTree = BUILT_PRODUCTS_DIR; };
 		55AEF64621B63F2D00FF4DBB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		55AEF64D21B63F9000FF4DBB /* KeysInterceptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeysInterceptor.m; sourceTree = "<group>"; };
+		55AEF64E21B63F9000FF4DBB /* NSScreen+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSScreen+Utils.h"; sourceTree = "<group>"; };
+		55AEF64F21B63F9000FF4DBB /* ScreenSnapshot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScreenSnapshot.h; sourceTree = "<group>"; };
+		55AEF65021B63F9000FF4DBB /* KeysInterceptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeysInterceptor.h; sourceTree = "<group>"; };
+		55AEF65121B63F9000FF4DBB /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		55AEF65221B63F9000FF4DBB /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		55AEF65321B63F9000FF4DBB /* EyeDropperView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EyeDropperView.m; sourceTree = "<group>"; };
+		55AEF65421B63F9000FF4DBB /* EyeDropperView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EyeDropperView.h; sourceTree = "<group>"; };
+		55AEF65521B63F9100FF4DBB /* EyeDropperWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EyeDropperWindow.m; sourceTree = "<group>"; };
+		55AEF65621B63F9100FF4DBB /* NSScreen+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSScreen+Utils.m"; sourceTree = "<group>"; };
+		55AEF65721B63F9100FF4DBB /* ScreenSnapshot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScreenSnapshot.m; sourceTree = "<group>"; };
+		55AEF65821B63F9100FF4DBB /* EyeDropperWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EyeDropperWindow.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +75,18 @@
 		55AEF64521B63F2D00FF4DBB /* bin */ = {
 			isa = PBXGroup;
 			children = (
+				55AEF65121B63F9000FF4DBB /* AppDelegate.h */,
+				55AEF65221B63F9000FF4DBB /* AppDelegate.m */,
+				55AEF65421B63F9000FF4DBB /* EyeDropperView.h */,
+				55AEF65321B63F9000FF4DBB /* EyeDropperView.m */,
+				55AEF65821B63F9100FF4DBB /* EyeDropperWindow.h */,
+				55AEF65521B63F9100FF4DBB /* EyeDropperWindow.m */,
+				55AEF65021B63F9000FF4DBB /* KeysInterceptor.h */,
+				55AEF64D21B63F9000FF4DBB /* KeysInterceptor.m */,
+				55AEF64E21B63F9000FF4DBB /* NSScreen+Utils.h */,
+				55AEF65621B63F9100FF4DBB /* NSScreen+Utils.m */,
+				55AEF64F21B63F9000FF4DBB /* ScreenSnapshot.h */,
+				55AEF65721B63F9100FF4DBB /* ScreenSnapshot.m */,
 				55AEF64621B63F2D00FF4DBB /* main.m */,
 			);
 			path = bin;
@@ -72,6 +102,7 @@
 				55AEF63F21B63F2D00FF4DBB /* Sources */,
 				55AEF64021B63F2D00FF4DBB /* Frameworks */,
 				55AEF64121B63F2D00FF4DBB /* CopyFiles */,
+				55AEF65F21B63FDA00FF4DBB /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -113,12 +144,38 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		55AEF65F21B63FDA00FF4DBB /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cp \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_NAME}\" ../bin\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		55AEF63F21B63F2D00FF4DBB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55AEF65E21B63F9100FF4DBB /* ScreenSnapshot.m in Sources */,
 				55AEF64721B63F2D00FF4DBB /* main.m in Sources */,
+				55AEF65C21B63F9100FF4DBB /* EyeDropperWindow.m in Sources */,
+				55AEF65B21B63F9100FF4DBB /* EyeDropperView.m in Sources */,
+				55AEF65921B63F9100FF4DBB /* KeysInterceptor.m in Sources */,
+				55AEF65D21B63F9100FF4DBB /* NSScreen+Utils.m in Sources */,
+				55AEF65A21B63F9100FF4DBB /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
