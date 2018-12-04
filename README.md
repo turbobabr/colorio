@@ -15,7 +15,7 @@ $ npm install colorio
 - Multiple displays support
 - Retina displays support
 - No dependencies
-- Tiny binary -> only `59 kb`!
+- Tiny binary -> `59 kb`
 - Electron integraion out of the box
 
 ## Usage
@@ -63,7 +63,7 @@ A custom path to the colorio's binary. Might be helpful in case of custom `dev` 
 
 ###### Returns
 
-Returns a promise with an object when promise is fullfilled. In case color is picked, the object will look like this, where `color` property contains `r`, `g`, `b` keys representing `rgb` color components in `0...1` range (0 === 0, 1 === 255):
+Returns a promise with an object when promise is fullfilled. In case color is picked, the object will look like this, where `color` property contains `r`, `g`, `b` keys representing `rgb` color components in `0...1` range (0.0 -> 0, 1.0 => 255):
 ```json
 {
     "result": "picked",
