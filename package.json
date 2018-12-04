@@ -1,6 +1,6 @@
 {
   "name": "colorio",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Pick colors from the screen on macOS in Node or Electron.js applications",
   "main": "index.js",
   "engines": {
