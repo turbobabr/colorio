@@ -5,7 +5,7 @@ colorio is a color picker(eyedropper) GUI tool, implemented as a node.js module 
 ## Installation
 
 ```
-$ npm install aperture
+$ npm install colorio
 ```
 
 *Requires macOS 10.12 or later.*
