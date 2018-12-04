@@ -12,6 +12,11 @@ $ npm install colorio
 
 *Requires macOS 10.12 or later.*
 
+## Demo
+
+A minimalistic Electron based demo can be found by the following url:
+- [colorio-electron-example](https://github.com/turbobabr/colorio-electron-example)
+
 ## Features
 
 - Multiple displays support
