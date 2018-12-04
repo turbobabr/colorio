@@ -42,6 +42,8 @@ pickColor().then((res) => {
 });
 ```
 
+> _NOTE: In Electrion applications this function should be called from the main process._
+
 ## API
 
 ### pickColor([options]) => `Promise`
