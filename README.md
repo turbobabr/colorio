@@ -1,6 +1,6 @@
 # colorio
 
-Pick colors from the screen on macOS in Node or Electron.js applications.
+colorio is a color picker(eyedropper) GUI tool, implemented as a node.js module with native `macOS` binary that represents GUI layer. It can be used in any stand-alone `node.js` or `Electron.js` applications running on `macOS`.
 
 ## Installation
 
@@ -9,6 +9,14 @@ $ npm install aperture
 ```
 
 *Requires macOS 10.12 or later.*
+
+## Features
+
+- Multiple displays support
+- Retina displays support
+- No dependencies
+- Tiny binary -> only `59 kb`!
+- Electron integraion out of the box
 
 ## Usage
 
