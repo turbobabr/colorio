@@ -1,0 +1,33 @@
+{
+  "name": "colorio",
+  "version": "0.1.0",
+  "description": "Pick colors from the screen on macOS in Node or Electron.js applications",
+  "main": "index.js",  
+  "engines": {
+    "node": ">=8"
+  },
+  "scripts": {
+    "build": "cd obj-c && xcodebuild archive -derivedDataPath $(mktemp -d) -scheme eyedropper",
+    "prepublish": "npm run build"
+  },
+  "files": [
+    "index.js",
+    "bin"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/turbobabr/colorio.git"
+  },
+  "keywords": [
+    "electron",
+    "color picker",
+    "eyedropper",
+    "macos"
+  ],
+  "author": "Andrey Shakhmin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/turbobabr/colorio/issues"
+  },
+  "homepage": "https://github.com/turbobabr/colorio#readme"
+}

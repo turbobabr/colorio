@@ -1,0 +1,9 @@
+node_modules
+yarn.lock
+package-lock.json
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcworkspace/contents.xcworkspacedata
+/obj-c/build
+/eyedropper
+.DS_Store
